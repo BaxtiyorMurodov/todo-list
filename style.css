@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.container{
+    max-width: 500px;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.toDoInput{
+    max-width: 350px;
+    width: 100%;
+    height: 25px;
+    padding: 12px;
+    border: 1px solid rgb(214, 151, 33);
+}
+.toDoInput:focus{
+    outline: none;
+}
+.toDoBtn{
+    height: 25px;
+    cursor: pointer;
+    background-color: turquoise;
+}
+.toDoBtn:hover{
+    background-color: yellow;
+    opacity: 0.8;
+}
+.toDoBtn:active{
+    background-color: yellow;
+    opacity: 0.6;
+}
+
+.to-dos{
+    max-width: 350px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    margin: auto;
+}
+
+
+
+.todoadd{
+    max-width: 350px;
+    width: 100%;
+    margin: 0;
+    margin-top: 10px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    background-color: rgb(68, 0, 255);
+    padding-left: 10px ;
+    font-size: 20px;
+
+}
